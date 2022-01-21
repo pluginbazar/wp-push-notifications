@@ -1,0 +1,108 @@
+/*
+Admin css
+*/
+
+/* @import "schedule-notification.css"; */
+
+.wppn_subscribers_list{}
+.wppn_subscribers_list .s_token { color: #607D8B; }
+.wppn_subscribers_list .s_id { color: #03A9F4; }
+.wppn_subscribers_list .s_endpoint { color: #9E9E9E; }
+.wppn_subscribers_list .s_key { color: #009688; }
+.wppn_subscribers_list .s_delete { color: #DD5347; cursor:pointer; }
+
+
+
+.wppn_submission_message{
+    display: inline-block;
+    padding: 5px 10px;
+    color: #565656;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+
+.wppn_option_box_container {
+    background: #fff;
+    padding: 25px;
+    border-right: 1px solid #f1f1f1;
+}
+
+.wppn_option_box {
+    color: #565656;
+	margin: 20px 0;
+    vertical-align: top;
+}
+
+.wppn_option_box .wppn_box_title {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.wppn_option_box  .wppn_box_info {
+    margin: 15px 0;
+    color: #565656;
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 20px;
+}
+
+.wppn_option_box  .wppn_box_input {
+    margin-left: 20px;
+}
+
+.wppn_option_box  .wppn_box_input input[type='text'],
+.wppn_option_box  .wppn_box_input input[type='email'],
+.wppn_option_box  .wppn_box_input select,
+.wppn_option_box  .wppn_box_input textarea{
+    border: none;
+    box-shadow: 0 0 2px rgba(30,140,190,.8);
+	min-width: 280px;
+	width: 80%;
+	padding:7px;
+	height: 40px;
+}
+.wppn_option_box  .wppn_box_input textarea{ height:auto !important; }
+.wppn_option_box .wppn_box_input input[type=checkbox] {
+	border: none !important;
+    box-shadow: 0 0 2px rgba(30,140,190,.8) !important;
+}
+.wppn_option_box .wppn_box_input input[type=checkbox], 
+.wppn_option_box .wppn_box_input label {
+    vertical-align: middle;
+    margin: 5px 0;
+}
+
+.wppn_option_box .wppn_box_input .wppn_input_error {
+	box-shadow: inset 0 0 20px 1px rgba(247, 108, 19, 0.8) !important;
+}
+
+.wppn_file_error,.wppn_file_error:hover,.wppn_file_error:active,.wppn_file_error:focus{
+	background: #D54E21 !important;
+	color: #fff !important;
+    border-color: #D54E21 !important;
+    box-shadow: 0 1px 0 #D54E21 !important;
+}
+
+
+
+.button.button-orange{
+	background: #e77f11;
+    color: #fff;
+	transition: all ease-out 0.15s;
+	border-color: #e77f11;
+    box-shadow: 0 1px 0 #e77f11;
+}
+
+.button.button-orange:hover,
+.button.button-orange:active,
+.button.button-orange:focus{
+	background: #D54E21;
+	color: #fff;
+    border-color: #D54E21;
+    box-shadow: 0 1px 0 #D54E21;
+}
+
+
